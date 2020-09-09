@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="180.54">
+<testcase classname="Single data table" name="TC01_google seach test" time="26.925">
+<system-out><![CDATA[Given user is on the google page............................................passed
+And user searches for "iphone"..............................................passed
+Then verify the result has "iphone".........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Single data table" name="TC01_google seach test 2" time="16.753">
+<system-out><![CDATA[Given user is on the google page............................................passed
+And user searches for "istanbul"............................................passed
+Then verify the result has "istanbul".......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Single data table" name="TC01_google seach test 3" time="12.519">
+<system-out><![CDATA[Given user is on the google page............................................passed
+And user searches for "apple"...............................................passed
+Then verify the result has "apple"..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Single data table" name="TC01_google seach test 4" time="11.65">
+<system-out><![CDATA[Given user is on the google page............................................passed
+And user searches for "orange"..............................................passed
+Then verify the result has "orange".........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="login feature" name="TC01_user should login with manager credentials" time="111.161">
+<failure message="chrome not reachable&#10;  (Session info: chrome=84.0.4147.89)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'AYSETURHAN', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\DELLE7~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 74421c23e2b4d063d08159c9719377b4" type="org.openqa.selenium.WebDriverException"><![CDATA[Given user is on the fhctriplogin page......................................passed
+And user enter valid manager username.......................................passed
+And user enter valid manager password.......................................passed
+And user clicks on login button.............................................passed
+Then verify the manager login is successful.................................passed
+
+StackTrace:
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=84.0.4147.89)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AYSETURHAN', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_101'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\DELLE7~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62514}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 74421c23e2b4d063d08159c9719377b4
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepdefinitions.Hooks.tearDown(Hooks.java:39)
+]]></failure>
+</testcase>
+</testsuite>

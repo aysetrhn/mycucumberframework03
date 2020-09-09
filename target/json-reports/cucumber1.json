@@ -1,0 +1,215 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User is on the google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18172000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the google page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_on_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-24T16:46:59.002Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.searchIphone()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "TC01_User searches iphone on google",
+        "description": "",
+        "id": "google-search;tc01-user-searches-iphone-on-google",
+        "after": [
+          {
+            "result": {
+              "duration": 3653000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4794000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user searches for iphone",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches_for_iphone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify the result has iphone",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_the_result_has_iphone()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googlesearch"
+          },
+          {
+            "name": "@first"
+          },
+          {
+            "name": "@iphone"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User is on the google page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11020000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the google page",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_is_on_the_google_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-24T16:47:25.808Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "TC02_User searches tea pot on google",
+        "description": "",
+        "id": "google-search;tc02-user-searches-tea-pot-on-google",
+        "after": [
+          {
+            "result": {
+              "duration": 1481000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4141000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user searches for tea pot",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.user_searches_for_tea_pot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verify the result has tea pot",
+            "match": {
+              "location": "stepdefinitions.GoogleSearchStepDefinitions.verify_the_result_has_tea_pot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@googlesearch"
+          },
+          {
+            "name": "@first"
+          },
+          {
+            "name": "@teapot"
+          }
+        ]
+      }
+    ],
+    "name": "Google search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/firstfeaturefile.feature",
+    "tags": [
+      {
+        "name": "@googlesearch",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@first",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 15
+        }
+      }
+    ]
+  }
+]
